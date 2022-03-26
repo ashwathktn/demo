@@ -13,7 +13,7 @@ pipeline {
         stage('checkout') {
             steps {
                 echo "the branch is ${params.branch}"
-                git branch: 'main', url: 'https://github.com/microdegree-kannada/pipeline.git'
+                git branch: 'main', url: 'https://github.com/ashwathktn/demo.git'
 		echo "demonstrating"
                 }
             }
