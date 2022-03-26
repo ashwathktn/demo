@@ -32,7 +32,7 @@ pipeline {
     }
     post { 
         always { 
-            junit '**/target/surefire-reports/TEST-com.microdegree.AppTest.xml'
+            junit '**/target/surefire-reports/TEST-test.AppTest.xml'
         }
     }
 }
